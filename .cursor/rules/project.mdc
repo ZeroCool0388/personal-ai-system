@@ -1,0 +1,28 @@
+---
+description: Project rules for the personal AI system repo
+alwaysApply: true
+---
+
+# Personal AI system
+
+OpenClaw on Node.js 24 (macOS, launchd). A JavaScript plugin routes with TypeSafe AI Jev. Memory uses local EmbeddingGemma embeddings and SQLite-backed state. Interfaces are Telegram and a local OpenClaw dashboard. This repository is the write-up and diagrams only (`README.md`, `diagram-v2.png`, `diagram-v2-routing.png`). Implementation and account configuration stay private. No live site is listed.
+
+## Synthetic data only
+
+Synthetic data only. Never add real company, customer, vendor, or personal data. No employer names or work data of any kind. Do not add real messages, email, calendar entries, notes, memory records, conversation history, or account identifiers. Sample text stays fictional, starts with "SYNTHETIC DEMO DATA. Fictional. Not real.", and uses `.example` addresses.
+
+## No secrets in code
+
+No secrets in code. Do not commit real keys. The write-up may name OpenAI, xAI, TypeSafe AI Jev, Telegram, and the other integrations in the stack, and must not include API keys, bot tokens, or account credentials. This repository has no env file. Do not add real values. Keep private configuration out of git.
+
+## Checks before a commit or pull request
+
+Links and image paths in `README.md` must resolve. Diagrams referenced must exist. If code is ever added, tests must be added and pass.
+
+## README
+
+The README follows this order: problem, who it's for, demo GIF, live demo link if any (none is listed), architecture diagram, eval results, cost and latency, limits and next steps. Only real measured numbers. Never invent metrics, eval scores, cost, or latency.
+
+## Demo mode
+
+Demo mode only. No paid AI calls. Never set provider keys on any deployed project. Evals use built-in or recorded outputs only.
