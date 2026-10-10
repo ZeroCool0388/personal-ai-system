@@ -15,9 +15,9 @@ Synthetic data only. Never add real company, customer, vendor, or personal data.
 
 No secrets in code. Do not commit real keys. The write-up may name OpenAI, xAI, TypeSafe AI Jev, Telegram, and the other integrations in the stack, and must not include API keys, bot tokens, or account credentials. This repository has no env file. Do not add real values. Keep private configuration out of git.
 
-## Tests before a commit or pull request
+## Checks before a commit or pull request
 
-This repository has no test command and no CI workflow. Tests must be added and pass before any commit or pull request.
+Links and image paths in `README.md` must resolve. Diagrams referenced must exist. If code is ever added, tests must be added and pass.
 
 ## README
 
